@@ -1,0 +1,7 @@
+version: "2.4"
+services:
+  main-web:
+    build:
+      context: main-web
+    ports:
+      - 8200:80
